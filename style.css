@@ -1,6 +1,15 @@
 
 body {
 	background: #f9e933;
+	margin: auto;	
+}
+header,main, footer {
+	min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
 }
 
 header {
@@ -8,11 +17,8 @@ header {
 }
 
 main {
-	display: block;
 	background: white;
 }
 
 
-header,main, footer {
-	min-width: 855px;
-}
+
