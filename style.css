@@ -1,0 +1,18 @@
+
+body {
+	background: #f9e933;
+}
+
+header {
+	background: white;
+}
+
+main {
+	display: block;
+	background: white;
+}
+
+
+header,main, footer {
+	min-width: 855px;
+}
