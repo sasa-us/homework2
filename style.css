@@ -1,24 +1,54 @@
-
 body {
 	background: #f9e933;
-	margin: auto;	
 }
-header,main, footer {
+
+/* create a ruleset for all of these elements */
+header, main, footer{
 	min-width: 855px;
 }
 
-header .container, main .container, footer .container {
+header .container, main .container, footer  .container {
 	max-width: 855px;
 	margin: auto;
 }
 
+/* ================ the header elements===========================*/
 header {
+	padding: 25px 0 25px 0;
 	background: white;
+	overflow: auto;
+}
+header h1 {
+	float: left;
+	width: 570px;
+}
+header nav {
+	float: right;
+	width: 285px;
 }
 
+/* ================ the main elements===========================*/
 main {
 	background: white;
+	overflow: auto;
+}
+main .left {
+	float:left;
+	width: 570px;
+}
+main .right {
+	float: right;
+	width: 285px;
 }
 
+/*================= the footer elements=========================*/
+footer .left {
+	float: left;
+	width:570px;
+}
 
+footer .sitemap {
+	float: right;
+	width: 285px;
+}
 
