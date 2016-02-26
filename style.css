@@ -42,11 +42,10 @@ main .right {
 }
 
 /*================= the footer elements=========================*/
-footer .left {
+footer .Contact {
 	float: left;
 	width:570px;
 }
-
 footer .sitemap {
 	float: right;
 	width: 285px;
