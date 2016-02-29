@@ -20,11 +20,15 @@ header {
 	overflow: auto;
 	border-bottom: 1px solid #ddd;
 }
+
 header h1 {
 	float: left;
 	width: 570px;
+	font-family: 'Ubuntu', sans-serif;
 	font-style:italic;
+	color: #B33;
 }
+
 header nav {
 	float: right;
 	width: 285px;
@@ -34,6 +38,8 @@ header nav {
 /* ================ the main elements===========================*/
 main {
 	background: white;
+	border-radius: 0 5px 5px 5px;
+	padding: 40px;
 	overflow: auto;
 }
 main .left {
@@ -45,13 +51,20 @@ main .right {
 	width: 285px;
 }
 
-/*================= the footer elements=========================*/
+/*============== the footer elements=====================*/
+footer h5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
 footer .Contact {
 	float: left;
 	width:570px;
 }
-footer .Contact div p:first-child {
+
+footer .Contact p:nth-child(2) {
 	font-style:italic;
+	color: #B33;
 }
 footer .sitemap {
 	float: right;
@@ -65,15 +78,16 @@ footer .sitemap .right {
     float: right;
 }
 
+/*================ change the link color ===================*/
 a {
-	color: cornflowerblue;
+	color: #B33;
 	text-decoration: none;
+	font-weight: bold;
 }
-
 a:visited {
-	color: tomato;
+	color: red;
 }
-
 a:hover {
+	color: blue;
 	text-decoration: underline;
 }
