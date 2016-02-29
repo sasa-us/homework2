@@ -51,6 +51,14 @@ main .right {
 	width: 285px;
 }
 
+#FAQ h3 {
+	float: left;
+	
+	font-family: 'Ubuntu', sans-serif;
+	font-style:italic;
+	color: #B33;
+}
+
 /*============== the footer elements=====================*/
 footer {
     border-top: 1px solid #ddd;

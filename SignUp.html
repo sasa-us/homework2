@@ -2,52 +2,63 @@
 <html>
   <head>
     <title>SignUp</title>
+     <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">    
+     <link rel="stylesheet" type="text/css" href="reset.css">
+     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
  
-  <body>
+  <body id="signup">
     <header>
       <img src="welcome.jpg" alt="an image of welcome!">
       <h2>Create an account</h2>
     </header>
 
     <main>
-      <p>--------------------------------------------------------------------------
-      </p>
-      <p>
-      Register with Amazeriffic to enjoy personalized service.
-      </p>
+       <p>Register with Amazeriffic to enjoy personalized service.</p>
       
-      <form>
-        Email Address* <input type="text" name="eAddr"><br>
-        User Name* <input type="text" name="usname"><br>
-        Password* <input type="text" name="fname"><br>
+        <form>
+          Email Address* <input type="text" name="eAddr"><br>
+          User Name* <input type="text" name="usname"><br>
+          Password* <input type="text" name="fname"><br>
           <p> 8-character minimum; case secsitive</p>
-        Reenter Password* <input type="text" name="fname"><br>
-        Gender
-        <select>
-          <option value="Female">Female</option>
-          <option value="Male">Male</option>
-          <option value="Not Specified">Not specified</option>
-        </select><br>
-        <input type="submit" value="Submit">
-      </form>
-      <p>Click the "Submit" button to finish.</p>
+          Reenter Password* <input type="text" name="fname"><br>
+          Gender
+          <select>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            <option value="Not Specified">Not specified</option>
+          </select><br>
+         <input type="submit" value="Submit">
+       </form>
+        <p>Click the "Submit" button to finish.</p>
+        <h5><a href="index.html">Back</a></h5>
     </main>
     
     <footer>
-      <div>
-        <h5>
-          <a href="index.html">Back</a>
-        </h5>
-        <h5>Need more help?</h5>
-        <p>contact us</p>
-      
-        <ul>
-          <li><a href="#">Email</a></li>
-          <li><a href="#">Phone</a></li>
-          <li><a href="#">Chat</a></li>
+     <div class="container">
+      <div class="Contact">
+        <h5>Contact Us</h5>
+         <p>Amazeriffic!</p>
+         <p>555 Fiftieth Street</p>
+         <p>Asheville, NC 28801</p>
+      </div>
+
+      <div class="sitemap">
+        <h5>Sitemap</h5>
+         <ul>
+          <div class="left">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privary</a></li>
+          </div>
+         <div class="right">
+            <li><a href="#">Support</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="#">Careers</a></li>
+         </div>
         </ul>
       </div>
+     </div>
     </footer>
   </body>
 </html>
