@@ -21,7 +21,7 @@ header {
 	border-bottom: 1px solid #ddd;
 }
 
-header h1 {
+h1 {
 	float: left;
 	width: 570px;
 	font-family: 'Ubuntu', sans-serif;
@@ -32,7 +32,7 @@ header h1 {
 header nav {
 	float: right;
 	width: 285px;
-	font-size: 16px;
+	font-size: 25px;
 }
 
 /* ================ the main elements===========================*/
@@ -52,7 +52,12 @@ main .right {
 }
 
 /*============== the footer elements=====================*/
-footer h5 {
+footer {
+    border-top: 1px solid #ddd;
+    padding: 40px 0 20px 0;
+}
+
+h5 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.25em;
     margin-bottom: 20px;
@@ -70,6 +75,10 @@ footer .sitemap {
 	float: right;
 	width: 285px;
 }
+footer.sitemap .h5 {
+   float: left;
+ 
+}
 footer .sitemap .left {
     float: left;
 }
@@ -77,6 +86,7 @@ footer .sitemap .left {
 footer .sitemap .right {
     float: right;
 }
+
 
 /*================ change the link color ===================*/
 a {
