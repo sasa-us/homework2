@@ -13,7 +13,7 @@ header .container, main .container, footer .container {
 	margin: auto;
 }
 
-/* ================ the header elements===========================*/
+/* ================ the header elements=====================*/
 header {
 	padding: 25px 0 25px 0;
 	background: white;
@@ -35,7 +35,7 @@ header nav {
 	font-size: 25px;
 }
 
-/* ================ the main elements===========================*/
+/* ================ the main elements=====================*/
 main {
 	background: white;
 	border-radius: 0 5px 5px 5px;
@@ -51,6 +51,7 @@ main .right {
 	width: 285px;
 }
 
+/* ================ FAQ.html =============================*/
 #FAQ h3 {
 	float: left;
 	
@@ -58,6 +59,8 @@ main .right {
 	font-style:italic;
 	color: #B33;
 }
+
+/* ================ SignUp.html===========================*/
 
 label{
     display: inline-block;
@@ -90,7 +93,7 @@ input[type="submit"]{
 	color: gray;
 }
 
-/*============== the footer elements=====================*/
+/*============== style the footer elements=================*/
 footer {
     border-top: 1px solid #ddd;
     padding: 40px 0 20px 0;
@@ -125,7 +128,6 @@ footer .sitemap .left {
 footer .sitemap .right {
     float: right;
 }
-
 
 /*================ change the link color ===================*/
 a {
